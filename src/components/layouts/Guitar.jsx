@@ -13,12 +13,12 @@ export const Guitar = () => {
             <p className='text-[19px] font-semibold'>SONDS VIBES WITH COLORS</p>
           </div>
           <div>
-            <p className='text-[7px] font-semibold'>
+            <p className='text-[8px] font-semibold'>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, quos officia eius in nam rem mollitia earum eligendi molestias quas, voluptas excepturi aliquid delectus dolore saepe ratione sunt ipsam non?
             </p>
           </div>
         </div>
-        <button className='bg-[#f94e60] hover:bg-[#e61837] hover:scale-[103%] transition duration-300 rounded-2xl mt-1 w-[80px] py-1.5 text-[7px] text-white'>
+        <button className='bg-[#f94e60] hover:bg-[#e61837] hover:scale-[103%] transition duration-300 rounded-2xl mt-1 w-[80px] py-1.5 text-[8px] text-white'>
           GO THESE
         </button>
       </div>

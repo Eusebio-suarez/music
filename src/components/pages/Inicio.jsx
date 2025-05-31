@@ -6,7 +6,7 @@ import { Guitar } from '../layouts/Guitar'
 
 export const Inicio = () => {
   return (
-    <div className='flex flex-col items-center pb-60'>
+    <div className='flex flex-col justify-center items-center pb-60'>
         <Img/>
         <Seccion/>
         <Seccion direccion='row-reverse' titulo='ROUDER.' subTitulo='LIKE IT WAS NEVER BEEN BETTER.' subTitulo2={null} imgSrc={singer}/>
