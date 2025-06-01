@@ -9,8 +9,10 @@ export const Inicio = () => {
   return (
     <div className='flex flex-col justify-center items-center relative'>
         <Img/>
-        <Seccion/>
-        <Seccion direccion='row-reverse' titulo='ROUDER.' subTitulo='LIKE IT WAS NEVER BEEN BETTER.' subTitulo2={null} imgSrc={singer}/>
+        <div className='flex flex-col justify-center items-center gap-4 m-8'>
+          <Seccion/>
+          <Seccion direccion='row-reverse' titulo='ROUDER.' subTitulo='LIKE IT WAS NEVER BEEN BETTER.' subTitulo2={null} imgSrc={singer}/>
+        </div>
         <Guitar/>
         <Footer/>
     </div>
