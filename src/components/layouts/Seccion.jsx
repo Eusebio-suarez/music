@@ -8,8 +8,12 @@ export const Seccion = ({
   direccion = "row",
   imgSrc = palmer
 }) => {
+
+    const directionClass = direccion === "row" 
+    ? "min-[550px]:flex-row" 
+    : "min-[550px]:flex-row-reverse";
   return (
-    <div className={`w-full h-full p-6 justify-center flex items-center gap-4 flex-col-reverse min-[550px]:flex-${direccion} shadow-xl hover:scale-103 transition duration-500`}>
+    <div className={`w-full h-full p-6 justify-center flex items-center gap-4 flex-col-reverse shadow-xl hover:scale-103 transition duration-500 ${directionClass}`}>
 
       <div className='flex gap-1 flex-col lg:items-center max-w-xl'>
         <div className='flex flex-col gap-2 justify-center'>
